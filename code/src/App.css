@@ -1,38 +1,196 @@
-.App {
-  text-align: center;
+.img
+{
+  width:35px;
+  height:100px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Card-Container
+{
+  min-height: 65vh !important;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo-img
+{
+  width:100px;
+  height:60px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.coin-stats{
   display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--border);
+  font-size: 1rem;
+  opacity: 0.9;
+  padding: 20px;
+  width:max-content;
+}
+.stats{
+  font-weight: 800;
+}
+.stats-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.stats-container h2{
+  font-weight: 700;
+  font-size: 1.4rem;
+  margin-top: 20px;
+  color: var(--pink);
+}
+.coin-links{
+  padding: 0px 20px;
+    flex: 0.5;
+}
+
+.coin-link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--border);
+    padding: 20px;
+}
+
+.link-name{
+    text-transform: capitalize;
+    font-size: 1rem;
+}
+
+.coin-link a{
+    color: var(--pink);
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.coin-link:hover, .coin-stats:hover{
+    background-color: var(--bgSecondary);
+}
+
+.coin-desc-link{
+  display: flex;
+  gap: 40px;
+  margin-top: 40px;
+  padding-top: 20px;;
+}
+.coin-desc-link h2{
+  font-weight: 700;
+  color: var(--pink);
+}
+
+.coin-desc-link p{
+  font-size: 1rem;
+  opacity: 0.9;
+}
+.center
+{
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.coin-desc-link a{
+  color: var(--pink);
+}
+
+.coin-desc-link h3{
+  font-weight: 700;
+}
+
+.coin-desc{
+  flex: 0.5;
+}
+
+.coin-details-heading{
+  font-weight: 700 !important;
+  margin-top: 20px !important;
+  color: var(--pink) !important;
+}
+.name-stat{
+  display: flex;
+  gap: 10px;
+  font-size: 1rem;
+}
+.exchange-image{
+  margin: 0px 10px !important;
+}
+.main1{
+  display:flex;
+  justify-content: center;
   flex-direction: column;
   align-items: center;
+}
+.main-img1
+{
+  width:100%;
+  height:400px;
+}
+.provider-container
+{
+  display:flex !important;
+  width:140px!important;
+  justify-content: space-around !important
+}
+.coin-detail-container{
+  margin: 30px;
+}
+
+.coin-heading-container{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: 1px solid var(--border);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  gap: 10px;
 }
-
-.App-link {
-  color: #61dafb;
+.main4
+{
+  width:100%;
+  height:200px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.coin-heading-container .coin-name{
+  font-weight: 900;
+  color: var(--pink);
+ font-family: 'Montserrat', sans-serif;
+}
+.text
+{
+  font-family: 'Montserrat', sans-serif;
+}
+.text:hover
+{
+  color:rgb(101, 189, 189);
+}
+.coin-heading-container p{
+  font-size: 1rem;
+  opacity: 0.9;
+  margin-bottom: 20px;
+}
+.news-container
+{
+  display: flex;
+  justify-content: space-around;
+  width:200px;
+}
+.news
+{
+  display:flex !important;
+  justify-content: space-between !important
+}
+.new-img
+{
+  width:100px;
+}
+.card
+{
+  font-size:15px!important;
+  width:80%;
+}
+.Card
+{
+  min-width: 250px;
+}
+.search
+{
+  margin: 5px auto 30px auto;
+  width: 250px !important
 }
